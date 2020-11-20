@@ -1,0 +1,7 @@
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using tanakatakashidainoMacBook-Pro.local. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 20 00:06:09.839728 2020] [mpm_event:notice] [pid 99324:tid 4551257536] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Nov 20 00:06:09.840085 2020] [core:notice] [pid 99324:tid 4551257536] AH00094: Command line: '/Users/takahirotanaka/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/takahirotanaka/Library/Application Support/Local/run/R1DkPYb4_/conf/apache/apache2.conf'
+[Fri Nov 20 00:06:27.894739 2020] [mpm_event:notice] [pid 99324:tid 4551257536] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using tanakatakashidainoMacBook-Pro.local. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 20 00:07:13.903774 2020] [mpm_event:notice] [pid 99518:tid 4356500928] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Nov 20 00:07:13.904384 2020] [core:notice] [pid 99518:tid 4356500928] AH00094: Command line: '/Users/takahirotanaka/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/takahirotanaka/Library/Application Support/Local/run/R1DkPYb4_/conf/apache/apache2.conf'
