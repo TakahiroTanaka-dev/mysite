@@ -21,6 +21,8 @@
   <!-- Custom styles for this template -->
   <link href="http://mysite.local/wp-content/themes/my_blog/css/clean-blog.min.css" rel="stylesheet">
 
+  <?php wp_head(); ?>
+
 </head>
 
 <body>
@@ -177,6 +179,8 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/clean-blog.min.js"></script>
+
+  <?php wp_footer(); ?>
 
 </body>
 
