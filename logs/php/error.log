@@ -1,0 +1,33 @@
+[22-Nov-2020 11:15:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_tile() in /Users/takahirotanaka/Local Sites/mysite/app/public/wp-content/themes/my_blog/header.php:7
+Stack trace:
+#0 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-includes/template.php(676): load_template('/Users/takahiro...', true, Array)
+#2 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-content/themes/my_blog/single.php(6): get_header()
+#4 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-includes/template-loader.php(106): include('/Users/takahiro...')
+#5 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-blog-header.php(19): require_once('/Users/takahiro...')
+#6 /Users/takahirotanaka/Local Sites/mysite/app/public/index.php(17): require('/Users/takahiro...')
+#7 {main}
+  thrown in /Users/takahirotanaka/Local Sites/mysite/app/public/wp-content/themes/my_blog/header.php on line 7
+[22-Nov-2020 11:15:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_tile() in /Users/takahirotanaka/Local Sites/mysite/app/public/wp-content/themes/my_blog/header.php:7
+Stack trace:
+#0 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-includes/template.php(676): load_template('/Users/takahiro...', true, Array)
+#2 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-content/themes/my_blog/single.php(6): get_header()
+#4 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-includes/template-loader.php(106): include('/Users/takahiro...')
+#5 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-blog-header.php(19): require_once('/Users/takahiro...')
+#6 /Users/takahirotanaka/Local Sites/mysite/app/public/index.php(17): require('/Users/takahiro...')
+#7 {main}
+  thrown in /Users/takahirotanaka/Local Sites/mysite/app/public/wp-content/themes/my_blog/header.php on line 7
+[22-Nov-2020 11:15:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_tile() in /Users/takahirotanaka/Local Sites/mysite/app/public/wp-content/themes/my_blog/header.php:7
+Stack trace:
+#0 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-includes/template.php(676): load_template('/Users/takahiro...', true, Array)
+#2 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-content/themes/my_blog/single.php(6): get_header()
+#4 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-includes/template-loader.php(106): include('/Users/takahiro...')
+#5 /Users/takahirotanaka/Local Sites/mysite/app/public/wp-blog-header.php(19): require_once('/Users/takahiro...')
+#6 /Users/takahirotanaka/Local Sites/mysite/app/public/index.php(17): require('/Users/takahiro...')
+#7 {main}
+  thrown in /Users/takahirotanaka/Local Sites/mysite/app/public/wp-content/themes/my_blog/header.php on line 7
