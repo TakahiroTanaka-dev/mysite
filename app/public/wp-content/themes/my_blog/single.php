@@ -15,7 +15,9 @@
   <?php while(have_posts()): the_post(); ?>
   <!-- Page Header -->
   <?php $id = get_post_thumbnail_id(); ?>
-  <?php $img = wp_get_attachment_image_src($id); ?>
+  <?php $img = wp_get_attachment_image_src($id, 'large'); 
+    // var_dump($img)
+  ?>
   <header class="masthead" style="background-image: url('<?php echo $img[0]; ?>')">
     <div class="overlay"></div>
     <div class="container">
