@@ -14,7 +14,9 @@
   <?php if(have_posts()): ?>
   <?php while(have_posts()): the_post(); ?>
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/post-bg.jpg')">
+  <?php $id = get_post_thumbnail_id(); ?>
+  <?php $img = wp_get_attachment_image_src($id); ?>
+  <header class="masthead" style="background-image: url('<?php echo $img[0]; ?>')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
