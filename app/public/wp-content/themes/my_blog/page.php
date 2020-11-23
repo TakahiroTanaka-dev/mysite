@@ -12,7 +12,7 @@
   <!-- Navigation -->
   <?php get_template_part('includes/header'); ?>
 
-  <?php $img = get_eye_catch_with_default();?>
+  <?php $img = get_eye_catch_with_default(); ?>
 
   <!-- Page Header -->
   <?php if (have_posts()) : ?>
