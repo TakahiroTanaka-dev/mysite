@@ -1,3 +1,5 @@
+<!-- このタグは主にGoogleタグマネジャーなどで役にたつから入れておくと考える -->
+<?php wp_body_open(); ?>
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
