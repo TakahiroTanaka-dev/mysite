@@ -10,7 +10,7 @@
 <body <?php body_class(); ?>>
 
   <!-- Navigation -->
-  <?php get_template_directory('includes/header'); ?>
+  <?php get_template_part('includes/header'); ?>
 
   <?php $img = get_eye_catch_with_default();?>
 
@@ -44,7 +44,7 @@
     <?php endwhile; ?>
   <?php endif; ?>
 
-  <?php get_template_directory('includes/footer'); ?>
+  <?php get_template_part('includes/footer'); ?>
 
   <?php get_footer(); ?>
 
