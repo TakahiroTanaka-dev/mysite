@@ -2,6 +2,13 @@
 add_action('init', function (){
   add_theme_support('post-thumbnails');
   add_theme_support('title-tag');
+
+  // メニューをサポート
+  register_nav_menus([
+    'global_nav' => 'グローバルメニュー'
+  ]);
+
+
 });
 
 // アイキャッチ画像がなければ、標準画像を取得する。
